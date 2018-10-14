@@ -557,6 +557,94 @@ img{
 }
 /*Login-PC END*/
 
+/*Register Start*/
+.regiser_box{
+  width: 620px;
+  margin: 0 auto;
+}
+.regiser_box > h2{
+  padding-top: 50px;
+  text-align: center;
+}
+.regiser_box p{
+  padding-top: 5px;
+  padding-bottom: 35px;
+  font-size: 20px;
+  color: #3D1101;
+  text-align: center;
+}
+.regiser_font{
+  padding-bottom: 30px;
+  background: #EFE9E7;
+  border-top: 4px solid #FF5E45;
+  box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
+  
+}
+.regiser_font_right{
+  float: left;
+  padding-right: 15px;
+}
+.regiser_font h2{
+  font-size: 20px;
+  font-weight: bold;
+  color: #3D1101;
+  padding-top: 15px;
+  text-align: center;
+}
+.regiser_font_right > p{
+  text-align: left;
+  margin-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 3px;
+}
+.regiser_font_right > img{
+  position: absolute;
+  padding: 8px 0px 10px 24px;
+  opacity: 0.5;
+}
+.regiser_font_right > a{
+  display: block;
+  width: 115px;
+  margin-top: 8px;
+  margin-left: 15px;
+  color: #FF5E45;
+}
+.regiser_font_right > a:hover{
+  color: #3D1101;
+}
+.regiser_input_btn{
+  float: right;
+  width: 125px;
+  height: 32px;
+  margin-left: 15px;
+  margin-top: 30px;
+  color: #FFFFFF;
+  border: none;
+  background: rgba(0,0,0,0.35);
+  border-radius: 3px;
+}
+.regiser_input_btn{
+  background: #F56C23;
+}
+
+.regiser_font_left{
+  float: left;
+  width: 285px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.regiser_font_left > p{
+  text-align: left;
+}
+.regiser_font_left > h2{
+  font-size: 18px;
+  font-weight: normal;
+  color: #3D1101;
+  text-align: left;
+}
+/*Register END*/
+
+
 
 /*Mobile Start*/
 
