@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
 	<title></title>
-	<link rel="stylesheet" href="https://z110x119c911.github.io/restaurant/css/all.css">
+	<link rel="stylesheet" href="css/all.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	
 	<script src="js/jQuery v3.3.1.js"></script>
@@ -13,25 +13,33 @@
 </head>
 <body>
 	<div class="wrap">
-		
 		<div class="header">
-				<img src="https://z110x119c911.github.io/restaurant/images/header_desktop.png" alt="">
-			
+				<img class="header_picture" src="https://z110x119c911.github.io/restaurant/images/header_desktop.png" alt="">
+				<img class="header_picture_mobile" src="images/header_mobile.png" alt="">
 			<div class="top">
 				<a href="https://z110x119c911.github.io/restaurant/index.html"><img src="https://z110x119c911.github.io/restaurant/images/logo_w@svg.svg" alt=""></a>
-				<a class="hamburger-menu" href="#"><img src="https://z110x119c911.github.io/restaurant/images/menu-button.png" alt=""></a>
+				<a class="hamburger_menu" href="#"><img src="images/menu.svg" alt="" ></a>
 				<ul class="top-menu">
 					<li><a href="https://z110x119c911.github.io/restaurant/Cart-PC.html">特色</a></li>
 					<li><a href="https://z110x119c911.github.io/restaurant/Login-PC.html">主廚</a></li>
 					<li><a href="#">地圖</a></li>
 				</ul>
+
+				<div class="aside_mobile">
+					<ul class="top-menu">
+					<li><a href="https://z110x119c911.github.io/restaurant/Cart-PC.html">特色</a></li>
+					<li><a href="https://z110x119c911.github.io/restaurant/Login-PC.html">主廚</a></li>
+					<li><a href="#">地圖</a></li>
+				</ul>
+
+				</div>
 			</div>
 
 
 			<div class="logo-bg">
 
 				<div class="logo-text">
-					<h2>咬一口就無法忘懷的漢堡</h2>
+					<h2>咬一口<div class="logo_bit"></div>就無法忘懷的漢堡</h2>
 		               <p>七夕絕對無法錯過的好滋味
 		                  <br>
 		                  <i class="fas fa-utensils"></i>
@@ -86,6 +94,9 @@
 
 
 		<div class="chef-information-box">
+			<div class="chef_picture">
+				
+			</div>
 			<img src="https://z110x119c911.github.io/restaurant/images/main_chef_brown.png" alt="">
 			<div class="chef-information">
 				<h2>今日主廚：帕金森、梅在帕</h2>
@@ -138,16 +149,16 @@
 			<div class="command-text">
 
 				<h2>姓名</h2>
-				<input class="input-text" type="" name="" placeholder="六角講師吃尾牙">
+				<input class="input-text" type="text" name="" placeholder="六角講師吃尾牙">
 
 				<h2>電話</h2>
-				<input class="input-text" type="" name="" placeholder="02-12345678">
+				<input class="input-text" type="cel" name="" placeholder="02-12345678">
 
 				<h2>信箱</h2>
-				<input class="input-text" type="" name="" placeholder="test@gmail.com">
+				<input class="input-text" type="email" name="" placeholder="test@gmail.com">
 
 				<h2>人數</h2>
-				<input class="input-text" type="" name="" placeholder="">
+				<input class="input-text" type="number" name="" placeholder="">
 
 				<p>是否需要素食</p>
 				是
@@ -189,5 +200,6 @@
 		</div>
 		<div class="clearfix"></div>
 	</div>
-	</body>
+
+</body>
 </html>
