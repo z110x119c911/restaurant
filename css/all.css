@@ -137,15 +137,15 @@ img{
 
   
 }
-@media (max-width: 375px){
+@media (max-width: 414px) {
   .top{
     width: 100%;
     height: auto;
   }
   .top img{
-    width: 94px;
+    width: 110px;
     margin-left: 0px;
-    padding: 10px 0px 4px 15px;
+    padding: 10px 0px 10px 15px;
   }
   .top-menu{
     display: none;
@@ -185,6 +185,26 @@ img{
     display: block;
     margin-right: 200px;
     margin-bottom: 10px;
+  }
+}
+@media (max-width: 375px){
+
+  .top img{
+    width: 94px;
+    margin-left: 0px;
+    padding: 10px 0px 4px 15px;
+  }
+  .hamburger_menu{
+    float: right;
+    display: block;
+    width: 24px;
+    margin-right: 0px;
+    padding: 8px 10px 4px 0px;
+  }
+  .hamburger_menu > img{
+    width: 24px;
+    margin-right: 0px;
+    padding: 0px 0px 0px 0px;
   }
 }
 /*header ENG*/
@@ -243,6 +263,21 @@ img{
   margin-right: 5%;
   padding-bottom: 5%;
 }
+@media (max-width: 414px){
+  .content-menu li{
+    width: 90%;
+  }
+  .content-menu p{
+    max-width: 100%;
+    padding-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+  }
+  .content-border{
+    display: none;
+  }
+}
 @media (max-width: 375px){
   .content-menu li{
     width: 90%;
@@ -250,8 +285,8 @@ img{
   .content-menu p{
     max-width: 100%;
     padding-top: 5%;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
     text-align: left;
   }
   .content-border{
@@ -299,9 +334,9 @@ img{
 }
   
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .chef-information-box img{
-    width: 375px;
+    width: 100%;
     padding-left: 0%;
     padding-bottom: 10%;
   }
@@ -311,7 +346,7 @@ img{
     padding-left: 0%;
     padding-bottom: 10%;
     margin-left: 5%;
-
+    margin-right: 5%;
   }
 }
 /*chef ENG*/
@@ -370,9 +405,11 @@ img{
     padding:10% 0% 30% 58%;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .costomer-menu li > h2{ 
+    margin-right: 31%;
     margin-top: 10%;
+
   }
   .costomer-menu li{
     float: none;
@@ -382,6 +419,12 @@ img{
   }
   .costomer-menu li > h3{ 
     padding:10% 0% 30% 58%;
+  }
+}
+@media (max-width: 375px) {
+  .costomer-menu li > h2{ 
+    margin-right: 27%;
+    margin-top: 10%;
   }
 }
 /*costomer ENG*/
@@ -468,7 +511,7 @@ img{
     margin-left: 10px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .map{
     max-width: 100%;
     margin-left: 2%;
@@ -477,9 +520,9 @@ img{
   }
   .command-text{
     float: none;
-    width: 91%;
-    margin-left: 3%;
-    margin-right: 2%;
+    width: 87%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 30%;
   }
   .input-text{
@@ -518,7 +561,7 @@ img{
   padding-top: 7%;
 }
 .footer-link > p {
-  padding-left: 100px;
+  padding-left: 37%;
 }
 .footer-link > p > a > img{
   border-radius: 15%;
@@ -527,8 +570,11 @@ img{
   .footer-menu{
     padding: 5% 0% 17% 0%;
   }
+  .footer-link > p {
+    padding-left: 47%;
+  }
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .footer-menu{
     padding: 5% 0% 7% 3.5%;
   }
@@ -546,7 +592,7 @@ img{
     margin-top: 5%;
   }
   .footer-link > p {
-    margin-left: 100px;
+    margin-left: 11%;
   }
   .footer-link > img{
     margin-top: 8%;
@@ -555,6 +601,15 @@ img{
   .footer-link > p > a > img{
     margin-left: 3%;
     width: 35px;
+  }
+}
+@media (max-width: 320px) {
+  .footer-link > p {
+    margin-left: 8%;
+  }
+   .footer-link > img{
+    margin-top: 8%;
+    margin-left: 28%;
   }
 }
 /*footer END*/
